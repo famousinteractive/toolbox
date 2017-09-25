@@ -11,7 +11,7 @@ class Toolbox extends Command
      *
      * @var string
      */
-    protected $signature = 'famous:toolbox';
+    protected $signature = 'famous:toolbox {--config=}';
 
     /**
      * The console command description.
@@ -37,7 +37,7 @@ class Toolbox extends Command
      */
     public function handle()
     {
-        $config = $this->getLibConfig();
+        $config = $this->getLibConfig( $this->option('config'));
 
         $this->info('-------------------- WELCOME --------------------');
         $this->info('-------------- FAMOUS LIB INSTALLER --------------');
@@ -84,8 +84,14 @@ class Toolbox extends Command
 
     }
 
-    protected function getLibConfig() {
-        $configFile = file_get_contents( __DIR__ .'/../.lib_config.json');
+    protected function getLibConfig($configFile) {
+
+        if(is_null($configFile)) {
+            $configFile = file_get_contents( __DIR__ .'/../.lib_config.json');
+        } else {
+            $configFile = file_get_contents(  $configFile);
+        }
+
         return json_decode($configFile, true);
     }
 

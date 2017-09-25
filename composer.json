@@ -1,6 +1,6 @@
 {
     "name": "famousinteractive/toolbox",
-    "description": "Allow to install a set of custom library sample. it'll copy the lib you want in your working directory as the goal is to be a toolbox of resources and not a multifunction package.",
+    "description": "Install a set of custom library in a laravel project from github or any zip source",
     "type": "library",
     "license": "GPL-3.0+",
     "authors": [
