@@ -1,0 +1,22 @@
+{
+    "name": "famousinteractive/toolbox",
+    "description": "Allow to install a set of custom library sample. it'll copy the lib you want in your working directory as the goal is to be a toolbox of resources and not a multifunction package.",
+    "type": "library",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Jérémy Dillenbourg",
+            "email": "jeremy.dillenbourg@famousgrey.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": "~6.0",
+        "aws/aws-sdk-php": "^3.36"
+    },
+    "autoload": {
+        "psr-4": {
+            "Famousinteractive\\Toolbox\\": "src/"
+        }
+    }
+}
