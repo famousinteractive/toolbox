@@ -49,7 +49,7 @@ Install a set of library
         }
     }
     
-  - The path need to lead to a github zip (or at least, an zip archive like github do, with "master" in the name)
+  - The path need to be a github zip (or at least, an zip archive like github do, with "master" in the name)
   
   
   
