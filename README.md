@@ -40,6 +40,12 @@ Install a set of library
             "description": "Call using the dropbox API",
             "configkeys": ["DROPBOX_ACCESS_TOKEN"],
             "path": "https://github.com/famousinteractive/toolbox-lib-dropbox/archive/master.zip"
+        },
+        "auth": {
+                "description": "A set of file to implement a custom and managable authentification system",
+                "configkeys": ["auth_remember_token_cookie_name"],
+                "post-install": "Read the README in the Auth directory. A lot of files need to be moved",
+                "path": "https://github.com/famousinteractive/toolbox-lib-auth/archive/master.zip"
         }
     }
     
