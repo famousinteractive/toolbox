@@ -28,5 +28,11 @@
         "configkeys": ["auth_remember_token_cookie_name"],
         "post-install": "Read the README in the Auth directory. A lot of files need to be moved",
         "path": "https://github.com/famousinteractive/toolbox-lib-auth/archive/master.zip"
+    },
+    "Image-resizer": {
+        "description": "Auto resize image",
+        "configkeys": [],
+        "post-install": "The function in helper.php can be moved in the helper directory. Or you can use it as the helper file and so open you Providers/AppServiceProvider.php and add 'include __DIR__.'/../Libraries/Image/helper.php';' in the register() method",
+        "path": "https://github.com/famousinteractive/toolbox-lib-image/archive/master.zip"
     }
 }
