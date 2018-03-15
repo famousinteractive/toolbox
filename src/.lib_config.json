@@ -38,7 +38,13 @@
     "Ogone": {
         "description": "Template for an ogone library with route, controller and lib",
         "configkeys": ["OGONE_PSPID","OGONE_SHAIN","OGONE_SHAOUT"],
-        "post-install": "Copy the route in your route file, move the controller at the right place and set the env variable",
+        "post-install": "Copy the route in your route file, move the controller at the right place and set the env variable. Maybe add writing/logging in your database",
         "path": "https://github.com/famousinteractive/toolbox-lib-ogone/archive/master.zip"
+    },
+    "Mollie": {
+        "description": "Template for a Mollie library (route, controller, lib",
+        "configkeys": ["MOLLIE_IS_LIVE","MOLLIE_API_LIVE_KEY","MOLLIE_API_TEST_KEY"],
+        "post-install": "Copy the route in your route file, move the controller at the right place and set the env variable. Maybe add writing/logging in your database",
+        "path": "https://github.com/famousinteractive/toolbox-lib-mollie/archive/master.zip"
     }
 }
