@@ -1,12 +1,12 @@
 {
-    "name": "famousinteractive/toolbox",
+    "name": "jeremy379/toolbox",
     "description": "Install a set of custom library in a laravel project from github or any zip source",
     "type": "library",
     "license": "GPL-3.0+",
     "authors": [
         {
             "name": "Jérémy Dillenbourg",
-            "email": "jeremy.dillenbourg@famousgrey.com"
+            "email": "jeremy@dillenbourg.be"
         }
     ],
     "require": {
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Famousinteractive\\Toolbox\\": "src/"
+            "Jeremy379\\Toolbox\\": "src/"
         }
     }
 }

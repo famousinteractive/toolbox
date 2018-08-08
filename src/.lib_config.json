@@ -4,47 +4,47 @@
         "configkeys": [
             "AWS_REGION","AWS_KEY","AWS_SECRET","AWS_BUCKET"
         ],
-        "path": "https://github.com/famousinteractive/toolbox-lib-aws/archive/master.zip"
+        "path": "https://github.com/jeremy379/toolbox-lib-aws/archive/master.zip"
     },
     "helper": {
         "description": "A lot of function nice to have as a helper to use easily in the view and wherever you need",
         "configkeys": [],
-        "path": "https://github.com/famousinteractive/toolbox-lib-helper/archive/master.zip",
-        "post-install": "Open you Providers/AppServiceProvider.php and add 'include __DIR__.'/../Libraries/Helper/famous.php';' in the register() method"
+        "path": "https://github.com/jeremy379/toolbox-lib-helper/archive/master.zip",
+        "post-install": "Open you Providers/AppServiceProvider.php and add 'include __DIR__.'/../Libraries/Helper/function.php';' in the register() method"
     },
     "httpcommunicator": {
         "description": "It's an helper for Guzzle providing basic method for RESTfull calls.",
         "configkeys": [],
-        "path": "https://github.com/famousinteractive/toolbox-lib-httpcommunicator/archive/master.zip"
+        "path": "https://github.com/jeremy379/toolbox-lib-httpcommunicator/archive/master.zip"
     },
     "dropbox": {
         "description": "Call using the dropbox API",
         "configkeys": ["DROPBOX_ACCESS_TOKEN"],
-        "path": "https://github.com/famousinteractive/toolbox-lib-dropbox/archive/master.zip",
+        "path": "https://github.com/jeremy379/toolbox-lib-dropbox/archive/master.zip",
         "post-install": "This require to install also the httpcommunicator if not done yet"
     },
     "auth": {
         "description": "A set of file to implement a custom and managable authentification system",
         "configkeys": ["auth_remember_token_cookie_name"],
         "post-install": "Read the README in the Auth directory. A lot of files need to be moved",
-        "path": "https://github.com/famousinteractive/toolbox-lib-auth/archive/master.zip"
+        "path": "https://github.com/jeremy379/toolbox-lib-auth/archive/master.zip"
     },
     "Image-resizer": {
         "description": "Auto resize image",
         "configkeys": [],
         "post-install": "The function in helper.php can be moved in the helper directory. Or you can use it as the helper file and so open you Providers/AppServiceProvider.php and add 'include __DIR__.'/../Libraries/Image/helper.php';' in the register() method",
-        "path": "https://github.com/famousinteractive/toolbox-lib-image/archive/master.zip"
+        "path": "https://github.com/jeremy379/toolbox-lib-image/archive/master.zip"
     },
     "Ogone": {
         "description": "Template for an ogone library with route, controller and lib",
         "configkeys": ["OGONE_PSPID","OGONE_SHAIN","OGONE_SHAOUT"],
         "post-install": "Copy the route in your route file, move the controller at the right place and set the env variable. Maybe add writing/logging in your database",
-        "path": "https://github.com/famousinteractive/toolbox-lib-ogone/archive/master.zip"
+        "path": "https://github.com/jeremy379/toolbox-lib-ogone/archive/master.zip"
     },
     "Mollie": {
         "description": "Template for a Mollie library (route, controller, lib",
         "configkeys": ["MOLLIE_IS_LIVE","MOLLIE_API_LIVE_KEY","MOLLIE_API_TEST_KEY"],
         "post-install": "Copy the route in your route file, move the controller at the right place and set the env variable. Maybe add writing/logging in your database",
-        "path": "https://github.com/famousinteractive/toolbox-lib-mollie/archive/master.zip"
+        "path": "https://github.com/jeremy379/toolbox-lib-mollie/archive/master.zip"
     }
 }

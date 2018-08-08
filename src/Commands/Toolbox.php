@@ -11,7 +11,7 @@ class Toolbox extends Command
      *
      * @var string
      */
-    protected $signature = 'famous:toolbox {--config=}';
+    protected $signature = 'jeremy379:toolbox {--config=}';
 
     /**
      * The console command description.
