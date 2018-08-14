@@ -1,6 +1,6 @@
 <?php
 
-namespace Famousinteractive\Toolbox;
+namespace Jeremy379\Toolbox;
 
 use Famousinteractive\Toolbox\Commands\Toolbox;
 use Illuminate\Support\ServiceProvider;
