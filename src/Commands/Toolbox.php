@@ -1,7 +1,7 @@
 <?php
 
 namespace Jeremy379\Toolbox\Commands;
-use Famousinteractive\Toolbox\Library\EnvFile;
+use Jeremy379\Toolbox\Library\EnvFile;
 use Illuminate\Console\Command;
 
 class Toolbox extends Command

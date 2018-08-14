@@ -2,7 +2,7 @@
 
 namespace Jeremy379\Toolbox;
 
-use Famousinteractive\Toolbox\Commands\Toolbox;
+use Jeremy379\Toolbox\Commands\Toolbox;
 use Illuminate\Support\ServiceProvider;
 
 class ToolboxServiceProvider extends ServiceProvider

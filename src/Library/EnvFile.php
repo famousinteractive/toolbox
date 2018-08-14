@@ -1,6 +1,6 @@
 <?php
 
-namespace Famousinteractive\Toolbox\Library;
+namespace Jeremy379\Toolbox\Library;
 
 
 class EnvFile
