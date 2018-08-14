@@ -1,6 +1,6 @@
 <?php
 
-namespace Famousinteractive\Toolbox\Commands;
+namespace Jeremy379\Toolbox\Commands;
 use Famousinteractive\Toolbox\Library\EnvFile;
 use Illuminate\Console\Command;
 
