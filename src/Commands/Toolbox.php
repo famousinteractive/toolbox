@@ -54,7 +54,7 @@ class Toolbox extends Command
 
         if(!is_null($lib) && !empty($lib)) {
 
-            $targetPath = $this->ask('Where do you want to write the library ? ', app_path('Libraries/Famous/' . ucfirst($libKey)) );
+            $targetPath = $this->ask('Where do you want to write the library ? ', app_path('Libraries/' . ucfirst($libKey)) );
 
             if(!is_dir($targetPath)) {
                 $this->warn('Directory ' . $targetPath . ' don\'t exists');
