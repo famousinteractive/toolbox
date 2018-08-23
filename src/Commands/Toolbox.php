@@ -40,7 +40,7 @@ class Toolbox extends Command
         $config = $this->getLibConfig( $this->option('config'));
 
         $this->info('-------------------- WELCOME --------------------');
-        $this->info('-------------- FAMOUS LIB INSTALLER --------------');
+        $this->info('-------------- Jeremy379 LIB INSTALLER --------------');
         $this->info('>> Which library do you want to install ? ');
 
         foreach($config as $libName => $data) {
